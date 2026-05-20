@@ -47,5 +47,5 @@ for i in range(cantidad):
         cantidad_sin_errores += 1
 vector_sin_errores = [0]* cantidad_sin_errores
 for i in range (cantidad_sin_errores):
-    vector_sin_errores[i] = contenedor_sin_errores
+    vector_sin_errores[i] = contenedor_sin_errores [i]
 print("Usuarios que utilizan la plataforma, pero no presentan errores:", vector_sin_errores)
